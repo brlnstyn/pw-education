@@ -3,37 +3,29 @@ const menuItems = {
   items: [
     {
       id: 'navigation',
-      title: 'Overview',
+      title: 'General',
       type: 'group',
       icon: 'icon-navigation',
       children: [
         {
-          id: 'dashboard',
-          title: 'Dashboard',
-          type: 'collapse',
+          id: 'about',
+          title: 'About Us',
+          type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'home',
-          children: [
-            {
-              id: 'sales',
-              title: 'Sales',
-              type: 'item',
-              url: '/dashboard/sales'
-            }
-          ]
+          url: '/about'
         }
       ]
     },
     {
       id: 'ui-element',
-      title: 'ELEMENTS',
-      subtitle: 'UI Components',
+      title: 'JAVA METHODS',
       type: 'group',
       icon: 'icon-ui',
       children: [
         {
           id: 'typography',
-          title: 'Typography',
+          title: 'Java Methods',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'text_fields',
@@ -41,7 +33,7 @@ const menuItems = {
         },
         {
           id: 'color',
-          title: 'Color',
+          title: 'Java Method Parameter',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'color_lens',
@@ -49,43 +41,36 @@ const menuItems = {
         },
         {
           id: 'icons',
-          title: 'Icons',
-          type: 'collapse',
+          title: 'Java Method Overloading',
+          type: 'item',
           icon: 'material-icons-two-tone',
-          iconname: 'history_edu',
-          children: [
-            {
-              id: 'feather',
-              title: 'Feather',
-              type: 'item',
-              url: '/icons/Feather'
-            },
-            {
-              id: 'font-awesome-5',
-              title: 'Font Awesome',
-              type: 'item',
-              url: '/icons/font-awesome-5'
-            },
-            {
-              id: 'material',
-              title: 'Material',
-              type: 'item',
-              url: '/icons/material'
-            }
-          ]
+          iconname: 'history_edu'
+        },
+        {
+          id: 'icons',
+          title: 'Java Scope',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'verified_user'
+        },
+        {
+          id: 'icons',
+          title: 'Java Recursion',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'storefront'
         }
       ]
     },
     {
       id: 'pages',
-      title: 'Pages',
-      subtitle: '15+ Redymade Pages',
+      title: 'Java Classes',
       type: 'group',
       icon: 'icon-pages',
       children: [
         {
           id: 'login',
-          title: 'Login',
+          title: 'Java OOP',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'verified_user',
@@ -94,10 +79,46 @@ const menuItems = {
         },
         {
           id: 'register',
-          title: 'Register',
+          title: 'Java Classes/Objects',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'person_add_alt_1',
+          url: '/register',
+          target: true
+        },
+        {
+          id: 'register',
+          title: 'Java Class Attributes',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'list_alt',
+          url: '/register',
+          target: true
+        },
+        {
+          id: 'register',
+          title: 'Java Class Method',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'power_off',
+          url: '/register',
+          target: true
+        },
+        {
+          id: 'register',
+          title: 'Java Constructor',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'medical_services',
+          url: '/register',
+          target: true
+        },
+        {
+          id: 'register',
+          title: 'Java This Keyword',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'two_wheeler',
           url: '/register',
           target: true
         }
@@ -105,75 +126,45 @@ const menuItems = {
     },
     {
       id: 'support',
-      title: 'OTHER',
-      subtitle: 'Extra More Things',
+      title: 'Java File Handling',
       type: 'group',
       icon: 'icon-support',
       children: [
         {
           id: 'sample-page',
-          title: 'Sample Page',
+          title: 'Java Files',
           type: 'item',
           url: '/sample-page',
           classes: 'nav-item',
           icon: 'material-icons-two-tone',
-          iconname: 'storefront'
-        },
-        {
-          id: 'menu-level',
-          title: 'Menu Levels',
-          type: 'collapse',
-          icon: 'material-icons-two-tone',
-          iconname: 'list_alt',
-          children: [
-            {
-              id: 'menu-level-1.1',
-              title: 'Level 1.1',
-              type: 'item',
-              url: '#'
-            },
-            {
-              id: 'menu-level-1.2',
-              title: 'Level 2.2',
-              type: 'collapse',
-              children: [
-                {
-                  id: 'menu-level-2.1',
-                  title: 'Level 2.1',
-                  type: 'item',
-                  url: '#'
-                },
-                {
-                  id: 'menu-level-2.2',
-                  title: 'Level 2.2',
-                  type: 'collapse',
-                  children: [
-                    {
-                      id: 'menu-level-3.1',
-                      title: 'Level 3.1',
-                      type: 'item',
-                      url: '#'
-                    },
-                    {
-                      id: 'menu-level-3.2',
-                      title: 'Level 3.2',
-                      type: 'item',
-                      url: '#'
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
+          iconname: 'home_work'
         },
         {
           id: 'disabled-menu',
-          title: 'Disabled Menu',
+          title: 'Java Create/Write Files',
           type: 'item',
           url: '#',
           classes: 'nav-item disabled',
           icon: 'material-icons-two-tone',
           iconname: 'power_off'
+        },
+        {
+          id: 'disabled-menu',
+          title: 'Java Read Files',
+          type: 'item',
+          url: '#',
+          classes: 'nav-item disabled',
+          icon: 'material-icons-two-tone',
+          iconname: 'tap_and_play'
+        },
+        {
+          id: 'disabled-menu',
+          title: 'Java Delete Files',
+          type: 'item',
+          url: '#',
+          classes: 'nav-item disabled',
+          icon: 'material-icons-two-tone',
+          iconname: 'all_inclusive'
         }
       ]
     }
