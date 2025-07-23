@@ -6,7 +6,7 @@ import MainRoutes from './MainRoutes';
 import AdminLayout from 'layouts/AdminLayout';
 
 // render - landing page
-const DashboardSales = lazy(() => import('../views/dashboard/DashSales/index'));
+const About = lazy(() => import('../views/about'));
 
 // ==============================|| ROUTING RENDER ||============================== //
 
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
       children: [
         {
           index: true,
-          element: <DashboardSales />
+          element: <About />
         }
       ]
     },
