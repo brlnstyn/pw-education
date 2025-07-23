@@ -14,7 +14,6 @@ const Login = lazy(() => import('../views/auth/login'));
 const Register = lazy(() => import('../views/auth/register'));
 
 const Sample = lazy(() => import('../views/sample'));
-const Overview = lazy(() => import('../views/overview'));
 const About = lazy(() => import('../views/about'));
 
 const MainRoutes = {
@@ -24,10 +23,6 @@ const MainRoutes = {
       path: '/',
       element: <AdminLayout />,
       children: [
-        {
-          path: '/overview',
-          element: <Overview />
-        },
         {
           path: '/about',
           element: <About />
