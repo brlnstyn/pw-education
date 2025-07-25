@@ -191,7 +191,7 @@ export default function About() {
             kontribusi materi baru!
           </p>
           <div className="text-center">
-            <a href="https://discord.gg/edupaham" className="btn btn-primary">
+            <a href="https://discord.gg/EmYy7cMA" className="btn btn-primary">
               Join Discord
             </a>
           </div>

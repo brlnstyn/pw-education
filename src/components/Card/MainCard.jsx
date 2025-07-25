@@ -69,7 +69,7 @@ export default function MainCard({ isOption, title, children, cardClass, optionC
 
   cardHeader = (
     <Card.Header>
-      <Card.Title as="h5">{title}</Card.Title>
+      <Card.Title as="h3">{title}</Card.Title>
       {cardHeaderRight}
     </Card.Header>
   );

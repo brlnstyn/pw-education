@@ -33,7 +33,7 @@ export default function NavRight() {
         <Dropdown className="drp-user">
           <Dropdown.Toggle as="a" variant="link" className="pc-head-link arrow-none me-0 user-name">
             <div className="text-center">
-              <a href="https://discord.gg/edupaham" className="btn btn-primary">Join Discord</a>
+              <a href="https://discord.gg/EmYy7cMA" className="btn btn-primary">Join Discord</a>
             </div>
           </Dropdown.Toggle>
         </Dropdown>
