@@ -18,153 +18,146 @@ const menuItems = {
       ]
     },
     {
-      id: 'ui-element',
-      title: 'JAVA METHODS',
+      id: 'html-tutorial',
+      title: 'HTML TUTORIAL',
       type: 'group',
       icon: 'icon-ui',
       children: [
         {
-          id: 'typography',
-          title: 'Java Methods',
+          id: 'introduction',
+          title: 'HTML Introduction',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'text_fields',
-          url: '/typography'
+          url: '/html/introduction'
         },
         {
-          id: 'color',
-          title: 'Java Method Parameter',
+          id: 'tag_attribute_element',
+          title: 'Tag, Attributes, & Element',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'color_lens',
-          url: '/color'
+          url: '/html/attributes'
         },
         {
-          id: 'icons',
-          title: 'Java Method Overloading',
+          id: 'paragraph',
+          title: 'HTML Paragraph',
           type: 'item',
           icon: 'material-icons-two-tone',
-          iconname: 'history_edu'
+          iconname: 'history_edu',
+          url: '/html/paragraph'
         },
         {
-          id: 'icons',
-          title: 'Java Scope',
+          id: 'heading_comment_text',
+          title: 'Heading, Comment, & Format',
           type: 'item',
           icon: 'material-icons-two-tone',
-          iconname: 'verified_user'
+          iconname: 'verified_user',
+          url: '/html/formatting'
         },
         {
-          id: 'icons',
-          title: 'Java Recursion',
+          id: 'links',
+          title: 'HTML Links',
           type: 'item',
           icon: 'material-icons-two-tone',
-          iconname: 'storefront'
+          iconname: 'storefront',
+          url: '/html/links'
+        },
+        {
+          id: 'table',
+          title: 'HTML Table',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'table',
+          url: '/html/table'
+        },
+        {
+          id: 'list',
+          title: 'HTML List',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'commute',
+          url: '/html/list'
+        },
+        {
+          id: 'layout',
+          title: 'HTML Layout',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'dynamic_form',
+          url: '/html/layout'
+        },
+        {
+          id: 'semantic',
+          title: 'HTML Semantic',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'group_work',
+          url: '/html/semantic'
+        },
+        {
+          id: 'entity',
+          title: 'HTML Entity',
+          type: 'item',
+          icon: 'material-icons-two-tone',
+          iconname: 'pageview',
+          url: '/html/entity'
         }
       ]
     },
     {
-      id: 'pages',
-      title: 'Java Classes',
+      id: 'form',
+      title: 'HTML Forms',
       type: 'group',
       icon: 'icon-pages',
       children: [
         {
-          id: 'login',
-          title: 'Java OOP',
+          id: 'html_form',
+          title: 'HTML Form',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'verified_user',
-          url: '/login',
-          target: true
+          url: '/html/form'
         },
         {
-          id: 'register',
-          title: 'Java Classes/Objects',
+          id: 'input_type',
+          title: 'HTML Input Type',
           type: 'item',
           icon: 'material-icons-two-tone',
           iconname: 'person_add_alt_1',
-          url: '/register',
-          target: true
-        },
-        {
-          id: 'register',
-          title: 'Java Class Attributes',
-          type: 'item',
-          icon: 'material-icons-two-tone',
-          iconname: 'list_alt',
-          url: '/register',
-          target: true
-        },
-        {
-          id: 'register',
-          title: 'Java Class Method',
-          type: 'item',
-          icon: 'material-icons-two-tone',
-          iconname: 'power_off',
-          url: '/register',
-          target: true
-        },
-        {
-          id: 'register',
-          title: 'Java Constructor',
-          type: 'item',
-          icon: 'material-icons-two-tone',
-          iconname: 'medical_services',
-          url: '/register',
-          target: true
-        },
-        {
-          id: 'register',
-          title: 'Java This Keyword',
-          type: 'item',
-          icon: 'material-icons-two-tone',
-          iconname: 'two_wheeler',
-          url: '/register',
-          target: true
+          url: '/html/input'
         }
       ]
     },
     {
-      id: 'support',
-      title: 'Java File Handling',
+      id: 'media',
+      title: 'HTML Media',
       type: 'group',
       icon: 'icon-support',
       children: [
         {
-          id: 'sample-page',
-          title: 'Java Files',
+          id: 'image',
+          title: 'HTML Image',
           type: 'item',
-          url: '/sample-page',
-          classes: 'nav-item',
           icon: 'material-icons-two-tone',
-          iconname: 'home_work'
+          iconname: 'home_work',
+          url: '/html/image'
         },
         {
-          id: 'disabled-menu',
-          title: 'Java Create/Write Files',
+          id: 'audio',
+          title: 'HTML Audio',
           type: 'item',
-          url: '#',
-          classes: 'nav-item disabled',
           icon: 'material-icons-two-tone',
-          iconname: 'power_off'
+          iconname: 'power_off',
+          url: '/html/audio'
         },
         {
-          id: 'disabled-menu',
-          title: 'Java Read Files',
+          id: 'video',
+          title: 'HTML Video',
           type: 'item',
-          url: '#',
-          classes: 'nav-item disabled',
           icon: 'material-icons-two-tone',
-          iconname: 'tap_and_play'
-        },
-        {
-          id: 'disabled-menu',
-          title: 'Java Delete Files',
-          type: 'item',
-          url: '#',
-          classes: 'nav-item disabled',
-          icon: 'material-icons-two-tone',
-          iconname: 'all_inclusive'
+          iconname: 'tap_and_play',
+          url: '/html/video'
         }
       ]
     }

@@ -1,20 +1,29 @@
 import { lazy } from 'react';
 import AdminLayout from '../layouts/AdminLayout';
 
-const DashboardSales = lazy(() => import('../views/dashboard/DashSales/index'));
-
-const Typography = lazy(() => import('../views/ui-elements/basic/BasicTypography'));
-const Color = lazy(() => import('../views/ui-elements/basic/BasicColor'));
-
-const FeatherIcon = lazy(() => import('../views/ui-elements/icons/Feather'));
-const FontAwesome = lazy(() => import('../views/ui-elements/icons/FontAwesome'));
-const MaterialIcon = lazy(() => import('../views/ui-elements/icons/Material'));
-
-const Login = lazy(() => import('../views/auth/login'));
-const Register = lazy(() => import('../views/auth/register'));
-
-const Sample = lazy(() => import('../views/sample'));
+// General
 const About = lazy(() => import('../views/about'));
+
+// Html Tutorial
+const Introduction = lazy(() => import('../views/html-tutorial/introduction'));
+const Attributes = lazy(() => import('../views/html-tutorial/attributes'));
+const Paragraph = lazy(() => import('../views/html-tutorial/paragraph'));
+const Formatting = lazy(() => import('../views/html-tutorial/formatting'));
+const Links = lazy(() => import('../views/html-tutorial/links'));
+const Table = lazy(() => import('../views/html-tutorial/table'));
+const List = lazy(() => import('../views/html-tutorial/list'));
+const Layout = lazy(() => import('../views/html-tutorial/layout'));
+const Semantic = lazy(() => import('../views/html-tutorial/semantic'));
+const Entity = lazy(() => import('../views/html-tutorial/entity'));
+
+// Html Forms
+const Form = lazy(() => import('../views/html-forms/form'));
+const InputType = lazy(() => import('../views/html-forms/input-types'));
+
+// Html Media
+const Audio = lazy(() => import('../views/html-media/audio'));
+const Image = lazy(() => import('../views/html-media/image'));
+const Video = lazy(() => import('../views/html-media/video'));
 
 const MainRoutes = {
   path: '/',
@@ -28,29 +37,64 @@ const MainRoutes = {
           element: <About />
         },
         {
-          path: '/typography',
-          element: <Typography />
+          path: '/html/introduction',
+          element: <Introduction />
         },
         {
-          path: '/color',
-          element: <Color />
+          path: '/html/attributes',
+          element: <Attributes />
         },
         {
-          path: '/icons/Feather',
-          element: <FeatherIcon />
+          path: '/html/paragraph',
+          element: <Paragraph />
         },
         {
-          path: '/icons/font-awesome-5',
-          element: <FontAwesome />
+          path: '/html/formatting',
+          element: <Formatting />
         },
         {
-          path: '/icons/material',
-          element: <MaterialIcon />
+          path: '/html/links',
+          element: <Links />
         },
-
         {
-          path: '/sample-page',
-          element: <Sample />
+          path: '/html/table',
+          element: <Table />
+        },
+        {
+          path: '/html/list',
+          element: <List />
+        },
+        {
+          path: '/html/layout',
+          element: <Layout />
+        },
+        {
+          path: '/html/semantic',
+          element: <Semantic />
+        },
+        {
+          path: '/html/entity',
+          element: <Entity />
+        },
+        {
+          path: '/html/form',
+          element: <Form />
+        },
+        {
+          path: '/html/input',
+          element: <InputType />
+        },
+        {
+          path: '/html/image',
+          element: <Image />
+        },
+        {
+          path: '/html/audio',
+          element: <Audio />
+        },
+        {
+          path: '/html/video',
+          element: <Video />
         },
         {
           path: '*',
